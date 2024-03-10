@@ -1,0 +1,14 @@
+
+Financial Analysis
+
+----------------------------
+
+Total Records: 86
+
+Total Profits: 22,564,198.00 USD
+
+Average Change: -8311.11 USD
+
+Greatest Increase in Profits: Aug-16 (1,862,002.00 USD)
+
+Greatest Decrease in Profits: Feb-14 (-1,825,558.00 USD)
