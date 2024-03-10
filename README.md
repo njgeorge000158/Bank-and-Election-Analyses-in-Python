@@ -1,3 +1,5 @@
+![bank_and_election_analyses](https://github.com/njgeorge000158/Bank-and-Election-Analyses-in-Python/assets/137228821/37fb5c30-c051-4ed5-af80-6ea34480914a)
+
 # Bank and Election Analyses
 
 ----
