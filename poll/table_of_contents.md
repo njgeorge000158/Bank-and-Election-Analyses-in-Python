@@ -1,4 +1,4 @@
-# **Bank and Election Analyses in Python (PyPoll)**
+# **Bank-and-Election-Analyses-in-Python (poll)**
 
 ----
 
