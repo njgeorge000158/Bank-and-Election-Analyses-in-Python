@@ -2,15 +2,15 @@
 
 ----
 
-**Python-Driven Financial and Electoral Analysis: PyBank and PyPoll**
+# **Python-Driven Financial and Electoral Analysis: PyBank and PyPoll**
 
 ----
 
-**Project Overview**
+## **Project Overview**
 
 For this project, I developed two independent Python scripts to automate the analysis of financial and electoral data. Though distinct in purpose, both scripts share a common design philosophy: they are built to be versatile and reusable, capable of processing any dataset formatted consistently with their respective inputs — not just the specific files used here.
 
-**PyBank: Corporate Profit and Loss Analysis**
+## **PyBank: Corporate Profit and Loss Analysis**
 
 The first script, `bank_main.py`, analyzes a single year of profit and loss records for one company. The source data — housed in `budget_data.csv` within the Resources folder — contains 86 months of financial entries for the fiscal year 2023. The script reads this file and automatically computes the following metrics:
 
@@ -22,7 +22,7 @@ The first script, `bank_main.py`, analyzes a single year of profit and loss reco
 
 The results reveal a company that, despite generating a substantial net profit over the year, experienced notable volatility in its monthly performance — with a swing of nearly $3.7 million between its best and worst months. The negative average month-over-month change further suggests that, while the company remained profitable in aggregate, its financial momentum trended slightly downward across the period.
 
-**PyPoll: Municipal Election Vote Tabulation**
+## **PyPoll: Municipal Election Vote Tabulation**
 
 The second script, `poll_main.py`, was developed to modernize the vote-counting process for a small rural town. Drawing from `election_data.csv` in the Resources folder, the script tallies votes across the full election dataset and produces a complete breakdown of results:
 
