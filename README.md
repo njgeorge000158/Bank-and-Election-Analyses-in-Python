@@ -1,62 +1,47 @@
 ![bank_and_election_analyses](https://github.com/njgeorge000158/Bank-and-Election-Analyses-in-Python/assets/137228821/37fb5c30-c051-4ed5-af80-6ea34480914a)
 
-# Bank and Election Analyses
+----
+
+**Python-Driven Financial and Electoral Analysis: PyBank and PyPoll**
 
 ----
 
-## Bank
+**Project Overview**
 
-----
+For this project, I developed two independent Python scripts to automate the analysis of financial and electoral data. Though distinct in purpose, both scripts share a common design philosophy: they are built to be versatile and reusable, capable of processing any dataset formatted consistently with their respective inputs — not just the specific files used here.
 
-For this Challenge, I create a Python script, bank_main.py, to analyze one company's profit/loss records for a single year (2023), which are in the CSV file, budget_data.csv, found in the resources folder.  The script calculates each of the following values:
+**PyBank: Corporate Profit and Loss Analysis**
 
-  * The total number of months included in the dataset: 86
+The first script, `bank_main.py`, analyzes a single year of profit and loss records for one company. The source data — housed in `budget_data.csv` within the Resources folder — contains 86 months of financial entries for the fiscal year 2023. The script reads this file and automatically computes the following metrics:
 
-  * The net total amount of "Profit/Losses" over the entire period: $22,564,198
+- **Total months in the dataset:** 86
+- **Net profit/loss over the entire period:** $22,564,198
+- **Average month-over-month change:** -$8,311.11
+- **Greatest single-month increase:** $1,862,002 on August 16, 2023
+- **Greatest single-month decrease:** -$1,825,558 on February 14, 2023
 
-  * The changes in "Profit/Losses" over the entire period, and then the average of those changes: (-8,311.11 USD)
+The results reveal a company that, despite generating a substantial net profit over the year, experienced notable volatility in its monthly performance — with a swing of nearly $3.7 million between its best and worst months. The negative average month-over-month change further suggests that, while the company remained profitable in aggregate, its financial momentum trended slightly downward across the period.
 
-  * The greatest increase in profits (date and amount) over the entire period: August 16, 2023 (1,862,002.00 USD)
+**PyPoll: Municipal Election Vote Tabulation**
 
-  * The greatest decrease in profits (date and amount) over the entire period: February 14, 2023 (-1,825,558.00 USD)
+The second script, `poll_main.py`, was developed to modernize the vote-counting process for a small rural town. Drawing from `election_data.csv` in the Resources folder, the script tallies votes across the full election dataset and produces a complete breakdown of results:
 
-----
+- **Total votes cast:** 369,711
+- **Candidates and results:**
 
-## Poll
+| Candidate | Votes | Share |
+|---|---|---|
+| Diana DeGette | 272,892 | 73.81% |
+| Charles Casper Stockham | 85,213 | 23.05% |
+| Raymon Anthony Doane | 11,606 | 3.14% |
 
-----
+- **Winner by popular vote:** Diana DeGette
 
-For this Challenge, I write a Python script, poll_main.py, to help a small, rural town modernize its vote-counting process for a single election: the associated poll data is in a CSV file in the Resources folder, election_data.csv.  The script tallies the votes in the data set and calculates each of the following values:
+DeGette's victory was decisive, capturing nearly three-quarters of all votes cast — more than three times the share of her nearest competitor. The margin leaves no ambiguity in the outcome.
 
-  * The total number of votes cast: 369,711
+**Versatility and Extensibility**
 
-  * A complete list of candidates who received votes:
-
-    Charles Casper Stockham
-
-    Diana DeGette
-
-    Raymon Anthony Doane
-
-  * The percentage of votes each candidate won:
-
-    Charles Casper Stockham: 23.05%
-
-    Diana DeGette: 73.81%
-
-    Raymon Anthony Doane: 3.14%
-
-  * The total number of votes each candidate won:
-
-    Charles Casper Stockham: 85,213
-
-    Diana DeGette: 272,892
-
-    Raymon Anthony Doane: 11,606
-
-  * The winner of the election based on popular vote: Diana DeGette
-
-Both programs are versatile and capable of processing other data sets with the same formats: for instance, PyPoll can also handle write-in candidates and announce ties.
+Both scripts are designed with flexibility in mind. PyBank can process profit and loss records from any company or time period, provided the data follows the same CSV structure. PyPoll is equally adaptable: it can handle elections with any number of candidates, including write-in entries, and is equipped to identify and announce tied outcomes — making it a practical tool for a range of real-world electoral scenarios.
 
 ----
 
