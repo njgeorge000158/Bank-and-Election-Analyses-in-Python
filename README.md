@@ -12,7 +12,7 @@ For this project, I developed two independent Python scripts to automate the ana
 
 ## **PyBank: Corporate Profit and Loss Analysis**
 
-The first script, `bank_main.py`, analyzes a single year of profit and loss records for one company. The source data — housed in `budget_data.csv` within the Resources folder — contains 86 months of financial entries for the fiscal year 2023. The script reads this file and automatically computes the following metrics:
+The first script, `bank_main.py`, analyzes a single year of profit and loss records for one company. The source data — housed in `budget_data.csv` within the Resources folder — contains 86 months of financial entries for fiscal year 2023. The script reads this file and automatically computes the following metrics:
 
 - **Total months in the dataset:** 86
 - **Net profit/loss over the entire period:** $22,564,198
