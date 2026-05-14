@@ -20,11 +20,11 @@ The first script, `bank_main.py`, analyzes a single year of profit and loss reco
 - **Greatest single-month increase:** $1,862,002 on August 16, 2023
 - **Greatest single-month decrease:** -$1,825,558 on February 14, 2023
 
-The results reveal a company that, despite generating a substantial net profit over the year, experienced notable volatility in its monthly performance — with a swing of nearly $3.7 million between its best and worst months. The negative average month-over-month change further suggests that, while the company remained profitable in aggregate, its financial momentum trended slightly downward across the period.
+The results reveal a company that, despite generating a substantial net profit, experienced notable volatility in its monthly performance with a swing of nearly $3.7 million between its best and worst months. The negative average month-over-month change further suggests that, while the company remained profitable in the aggregate, its financial momentum trended slightly downward across the full period.
 
 ## **PyPoll: Municipal Election Vote Tabulation**
 
-The second script, `poll_main.py`, was developed to modernize the vote-counting process for a small rural town. Drawing from `election_data.csv` in the Resources folder, the script tallies votes across the full election dataset and produces a complete breakdown of results:
+The second script, `poll_main.py`, modernizes the vote-counting process for a small rural town. Drawing from the file `election_data.csv` in the Resources folder, the script tallies votes across the full election dataset and produces a complete breakdown of results:
 
 - **Total votes cast:** 369,711
 - **Candidates and results:**
@@ -37,14 +37,14 @@ The second script, `poll_main.py`, was developed to modernize the vote-counting 
 
 - **Winner by popular vote:** Diana DeGette
 
-DeGette's victory was decisive, capturing nearly three-quarters of all votes cast — more than three times the share of her nearest competitor. The margin leaves no ambiguity in the outcome.
+Essentially, DeGette's victory was decisive capturing nearly three-quarters of all votes cast, more than three times the share of her nearest competitor, leaving no ambiguity in the outcome.
 
 **Versatility and Extensibility**
 
-Both scripts are designed with flexibility in mind. PyBank can process profit and loss records from any company or time period, provided the data follows the same CSV structure. PyPoll is equally adaptable: it can handle elections with any number of candidates, including write-in entries, and is equipped to identify and announce tied outcomes — making it a practical tool for a range of real-world electoral scenarios.
+Both scripts are designed with flexibility in mind. PyBank can process profit and loss records from any company or time period, provided the data follows the same CSV structure. PyPoll is equally adaptable: it can handle elections with any number of candidates, including write-in entries, and is equipped to identify and announce tied outcomes, making it a practical tool for a range of real-world electoral scenarios.
 
 ----
 
 ## Copyright
 
-Nicholas J. George © 2023. All Rights Reserved.
+Nicholas J. George © 2026. All Rights Reserved.
