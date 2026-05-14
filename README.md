@@ -8,7 +8,7 @@
 
 ## **Project Overview**
 
-For this project, I developed two independent Python scripts to automate the analysis of financial and electoral data. Though distinct in purpose, both scripts share a common design philosophy: they are built to be versatile and reusable, capable of processing any dataset formatted consistently with their respective inputs — not just the specific files used here.
+For this project, I developed two independent Python scripts to automate the analysis of financial and electoral data. Though distinct in purpose, both scripts share a common design philosophy: they are built to be versatile and reusable, capable of processing any dataset formatted consistently with their respective inputs.
 
 ## **PyBank: Corporate Profit and Loss Analysis**
 
