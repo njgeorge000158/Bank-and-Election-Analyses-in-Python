@@ -10,7 +10,7 @@ This folder contains all files associated with the PyBank challenge. The centerp
 
 ## **Data Source**
 
-The input data resides in `budget_data.csv`, located in the `resources` folder. The file contains two columns — `Date` and `Profit/Losses` — with each row representing a single monthly financial record for the company.
+The input data resides in `budget_data.csv`, located in the `Resources` folder. The file contains two columns — `Date` and `Profit/Losses` — with each row representing a single monthly financial record for the company.
 
 ## **Calculations**
 
@@ -24,10 +24,10 @@ From this data, the script computes five key financial metrics:
 
 ## **Output**
 
-Once all calculations are complete, the script delivers results in two formats simultaneously: a printed summary displayed directly in the terminal for immediate review, and an exported text file — `budget_data.txt` — written to the `analysis` folder for documentation and future reference.
+After completing all calculations, the script delivers results to two separate destinations: a printed summary displayed directly in the terminal for immediate review, and an exported text file, `budget_data.txt`, written to the `Analysis` folder for documentation and future reference.
 
 ----
 
 ## Copyright
 
-Nicholas J. George © 2023. All Rights Reserved.
+Nicholas J. George © 2026. All Rights Reserved.
